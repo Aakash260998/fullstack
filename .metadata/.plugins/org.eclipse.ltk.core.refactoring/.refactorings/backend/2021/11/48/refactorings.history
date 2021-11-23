@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source folder &apos;backend/src/test/java&apos; to &apos;groovy&apos;&#x0D;&#x0A;- Original project: &apos;backend&apos;&#x0D;&#x0A;- Original element: &apos;backend/src/test/java&apos;&#x0D;&#x0A;- Renamed element: &apos;java&apos;" description="Rename source folder &apos;src/test/java&apos;" id="org.eclipse.jdt.ui.rename.source.folder" input="/src\/test\/java" name="groovy" stamp="1637649220775" version="1.0"/>
+</session>

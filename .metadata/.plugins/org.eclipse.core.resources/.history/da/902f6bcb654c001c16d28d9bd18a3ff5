@@ -13,7 +13,6 @@ class UserServiceSpec extends Specification {
 		userRepo=Mock()
 		userService=new UserService(userRepo)
 	}
-	
 	def "register" () {
 		
 		given:

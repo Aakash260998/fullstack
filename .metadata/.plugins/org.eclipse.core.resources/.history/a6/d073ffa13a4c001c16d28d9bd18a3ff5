@@ -1,0 +1,8 @@
+package com.example.demo.exception;
+
+public class NotAValidUserException extends RuntimeException{
+	public NotAValidUserException(String message) {
+		super(message);
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.example.demo.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.exception.UserAlreadyPresentException;
+import com.example.demo.model.User;
+import com.example.demo.repository.UserRepo;
+
+@Service
+public class UserService {
+
+	private UserRepo userRepo;
+
+	@Autowired
+	public UserService(UserRepo userRepo) {
+		this.userRepo = userRepo;
+	}
+
+	public String registerUser(User user) {
+       if(userRepo.findByUserName(user.getUsername())) {
+		throw new UserAlreadyPresentException("User with this username already present");
+       }
+       else {
+    	   userRepo.save(user);
+    	   return "User Registered";
+       }
+	}
+	
+	
+	
+	
+}

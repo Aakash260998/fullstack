@@ -1869,3 +1869,354 @@ class org.eclipse.jdt.core.dom.Block: {
 
 !ENTRY Activator 1 0 2021-11-23 12:29:13.328
 !MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 12:54:14.922
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 12:54:15.568
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 12:54:17.099
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-11-23 12:54:48.903
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-11-23 12:58:45.903
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 12:58:46.638
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 12:58:46.897
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 13:29:05.917
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 13:29:06.583
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 13:29:06.883
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-11-23 13:30:09.331
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-11-23 14:12:03.516
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:12:04.224
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:14:46.098
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:14:46.745
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:14:46.922
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:15:23.268
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:15:23.846
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:15:23.980
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:15:32.966
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:15:33.544
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:16:42.340
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:16:42.915
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:16:42.967
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:20:47.134
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:20:47.741
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:21:32.302
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:21:32.881
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:21:32.909
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:21:42.832
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:21:43.414
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:21:55.217
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:21:55.241
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:21:55.376
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:21:59.890
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:21:59.917
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:22:05.139
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 14:22:05.728
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:28:11.396
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:28:11.979
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:33:41.689
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:33:42.270
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:33:57.953
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:33:58.532
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY org.eclipse.jface 2 0 2021-11-23 16:35:49.619
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-23 16:35:49.619
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@541f43de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f3b3ae2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-11-23 16:37:04.644
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:37:04.838
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:37:17.545
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:37:18.132
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:37:18.301
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:38:03.013
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:38:03.587
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:40:22.076
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:40:23.021
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:40:23.464
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:41:21.468
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:41:22.042
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:41:22.192
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:42:30.367
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:42:30.943
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:42:31.212
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:42:44.903
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:42:45.497
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:42:46.151
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:42:55.891
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 16:42:56.464
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:00:36.290
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:00:36.862
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:00:37.160
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:02:35.811
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:02:36.382
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:02:36.565
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:05:34.211
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:05:34.785
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:05:35.037
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:06:20.501
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:06:21.089
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:06:21.359
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:10:17.562
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:10:18.135
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:10:18.740
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:17:42.098
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:17:42.680
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:17:42.961
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:20:19.730
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:20:20.306
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:20:20.504
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:22:14.802
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:22:15.377
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 17:22:15.634
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 18:08:42.033
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 18:08:42.605
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 18:08:42.871
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 18:08:59.914
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 18:09:00.511
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 18:09:00.708
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 19:00:08.509
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 19:00:09.049
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 19:00:09.354
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 19:00:58.758
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 19:00:59.340
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 19:00:59.857
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 19:01:10.389
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 19:01:10.965
+!MESSAGE Has main method computation for project 'backend'
+
+!ENTRY Activator 1 0 2021-11-23 19:01:11.462
+!MESSAGE Has main method computation for project 'backend'

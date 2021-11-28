@@ -18,13 +18,13 @@ public class UserService {
 		this.userRepo = userRepo;
 	}
 
-	public String registerUser(User user) {
+	public User registerUser(User user) {
        if(userRepo.findByUsername(user.getUsername())!=null) {
 		throw new UserAlreadyPresentException("User with this username already present");
        }
        else {
-    	   userRepo.save(user);
-    	   return "User Registered";
+    	   
+    	   return userRepo.save(user);
        }
 	}
 

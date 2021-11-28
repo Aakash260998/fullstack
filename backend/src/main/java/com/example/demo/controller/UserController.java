@@ -1,7 +1,8 @@
 package com.example.demo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.boot.autoconfigure.ldap.embedded.EmbeddedLdapProperties.Credential;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.model.User;
 import com.example.demo.service.UserService;
 
+@CrossOrigin("*")
 @RestController
 public class UserController {
 
@@ -19,11 +21,12 @@ public class UserController {
 		this.userService = userService;
 	}
 	@PostMapping("/register")
-	public String registerUser(@RequestBody User user) {
+	public User registerUser(@RequestBody User user) {
 		return userService.registerUser(user);
 	}
-	@PostMapping("/login/{username}/{password}")
-	public User checkLogin(@PathVariable("username") String username,@PathVariable("password") String password) {
-	  return userService.checkLogin(username,password);
+	@PostMapping("/login")
+	public User checkLogin(@RequestBody Credential credential) {
+		System.out.println(credential);
+	  return userService.checkLogin(credential.getUsername(),credential.getPassword());
 	}
 }

@@ -26,7 +26,6 @@ public class UserController {
 	}
 	@PostMapping("/login")
 	public User checkLogin(@RequestBody Credential credential) {
-		System.out.println(credential);
 	  return userService.checkLogin(credential.getUsername(),credential.getPassword());
 	}
 }

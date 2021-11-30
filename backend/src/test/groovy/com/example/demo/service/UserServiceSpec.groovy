@@ -20,10 +20,10 @@ class UserServiceSpec extends Specification {
 		 User user=new User("Aakash","qwerty","Aakash Prasad","Kolkata",12344567890)
 		 
 		when:
-		def msg= userService.registerUser(user)
+		def user1= userService.registerUser(user)
 		
 		then:
-		  msg=="User Registered"
+		  user1==null
 	}	
 //	def "register1" () {
 //		
